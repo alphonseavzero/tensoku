@@ -1,0 +1,19 @@
+{
+  "name": "太陽方位角計算",
+  "short_name": "太陽方位角",
+  "description": "地方時から太陽方位角を計算するWebアプリ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
