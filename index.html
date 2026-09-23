@@ -1074,7 +1074,7 @@ function getCurrentLocation(){
   if(!navigator.geolocation){
 
     status.textContent=
-      "このiPhone / ブラウザでは位置情報を利用できません。";
+      "この端末 / ブラウザでは位置情報を利用できません。";
 
     return;
 
@@ -1088,7 +1088,7 @@ function getCurrentLocation(){
   status.textContent=
     "位置情報を取得しています。\n"
     +
-    "iPhoneの位置情報使用許可が表示された場合は「許可」を選択してください。";
+    "端末の位置情報使用許可が表示された場合は「許可」を選択してください。";
 
   navigator.geolocation.getCurrentPosition(
 
@@ -1167,7 +1167,7 @@ function getCurrentLocation(){
           message=
             "位置情報の使用が許可されていません。\n"
             +
-            "iPhoneの「設定」→「プライバシーとセキュリティ」→「位置情報サービス」を確認してください。";
+            "端末の「設定」→「プライバシーとセキュリティ」→「位置情報サービス」を確認してください。";
 
           break;
 
